@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Poppins Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo">Claire</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="section">
+        <div class="home-container">
+        <div class="home-img">
+            <img src="IMG_20260427021618846(1).png" alt="Profile">
+        </div>
+        <div class="text">
+            <h1>Hello, I'm <span>Claire</span></h1>
+            <p>A creative graphic artist.</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section reverse">
+        <div class="text">
+            <h2>About Me</h2>
+            <p>Goal-oriented student with a solid foundation in basic programming languages, and digital graphic designing. Seeking an opportunity to apply academic knowledge and gain practical experience. Prover ability to create various designs and art works. Driven to contribute to collaborative proiects, learn from experienced professionals, and develop transferable skills.</p>
+            <a href="https://drive.google.com/file/d/18tUEUygqARX-_Xn2cFdJ2HA40P7ZT5ca/view" class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="project-text">
+        <h2>Projects</h2>
+
+    <div class="projects-container">
+
+        <!-- Project 1 -->
+        <label class="project-card">
+            <input type="checkbox">
+            <div class="card-inner">
+                <img src="1.png" class="front">
+                <img src="1.png" class="back">
+            </div>
+        </label>
+
+        <!-- Project 2 -->
+        <label class="project-card">
+            <input type="checkbox">
+            <div class="card-inner">
+                <img src="2.png" class="front">
+                <img src="2.png" class="back">
+            </div>
+        </label>
+
+        <!-- Project 3 -->
+        <label class="project-card">
+            <input type="checkbox">
+            <div class="card-inner">
+                <img src="3.png" class="front">
+                <img src="3.png" class="back">
+            </div>
+        </label>
+    </div>
+    </div>
+</section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="socials">
+            <a href="https://www.instagram.com/ss_on1?igsh=MXI4b3FrdGdvZXhvdw=="><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/claire-yosores-b16795371?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </section>
+
+    <!--Footer Section Start-->
+<footer>
+    <div class="footer-note">
+        Created By <span>Claire Y. & Nick A.</span>
+            | &copy; All Rights Reserved.
+    </div>
+</footer>
+
+
+</body>
+</html>
